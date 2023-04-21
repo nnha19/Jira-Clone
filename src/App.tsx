@@ -1,8 +1,13 @@
-import LoginPage from "./pages/login/login";
 import IssuesList from "./pages/issues/issuesList";
+import Appbar from "./components/Common/Appbar/Appbar";
 
 function App() {
-  return <IssuesList />;
+  return (
+    <div>
+      <Appbar />
+      <IssuesList />;
+    </div>
+  );
 }
 
 export default App;

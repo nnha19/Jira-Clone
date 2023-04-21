@@ -12,7 +12,7 @@ const IssueRow = ({
   return (
     <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
       <td className="px-6 py-4 hover:underline cursor-pointer">{issueKey}</td>
-      <td className="px-6 py-4 text-primary-light cursor-pointer hover:underline">
+      <td className="px-6 py-4 text-primary cursor-pointer hover:underline">
         {title}
       </td>
       <td className="px-6 py-4">
