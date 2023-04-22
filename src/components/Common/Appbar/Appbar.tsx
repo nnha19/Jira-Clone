@@ -6,6 +6,7 @@ import TextField from "../../Form/TextField";
 import Button from "../../UI/Button";
 import NavBtn from "./NavBtn";
 import Avatar from "../Avatar";
+import Model from "../../UI/Model/Model";
 
 const Appbar = () => {
   return (
@@ -19,7 +20,12 @@ const Appbar = () => {
         <NavBtn>Teams</NavBtn>
         <NavBtn>Apps</NavBtn>
         <div>
-          <Button btnStyle="py-1">Create</Button>
+          <Model
+            title="Create Issue"
+            triggerBtn={<Button btnStyle="py-1">Create</Button>}
+          >
+            Hello, I am a model
+          </Model>
         </div>
       </div>
 

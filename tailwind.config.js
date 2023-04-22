@@ -12,6 +12,7 @@ export default {
       textPrimary: "#42526E",
       white: "#ffffff",
       primaryDivider: "#EBECF0",
+      backdropColor: "#0000008c",
     },
   },
   plugins: [],

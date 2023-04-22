@@ -22,7 +22,7 @@ const Menu = ({ children, menuStyle, menuItems }: IProps) => {
         <IoIosArrowDropdown className="text-lg" />
       </button>
       {isOpen && (
-        <ul className="absolute left-0 bg-white p-4 rounded w-24">
+        <ul className="absolute left-0 bg-black p-4 rounded w-24">
           {menuItems.map((menuItem) => {
             return <div>{menuItem.label}</div>;
           })}
