@@ -1,4 +1,6 @@
 import Avatar from "../../../../components/Common/Avatar";
+import Menu from "../../../../components/UI/Menu/Menu";
+import capitalize from "../../../../utils/capitalize";
 import { Issue } from "../../types";
 
 const IssueRow = ({
@@ -21,7 +23,11 @@ const IssueRow = ({
       <td className="px-6 py-4">
         <Avatar name={reporter} />
       </td>
-      <td className="px-6 py-4">{status}</td>
+      <td className="px-6 py-4">
+        <Menu menuItems={[{ label: "In Progress", value: "inProgress" }]}>
+          {capitalize(status)}
+        </Menu>
+      </td>
       <td className="px-6 py-4">{createdAt.toISOString()}</td>
     </tr>
   );
