@@ -1,5 +1,11 @@
+import Typography from "../../../../components/UI/Typography";
+
 const IssuesHeader = () => {
-  return <div>Issues</div>;
+  return (
+    <div>
+      <Typography variant="header">Issues</Typography>
+    </div>
+  );
 };
 
 export default IssuesHeader;

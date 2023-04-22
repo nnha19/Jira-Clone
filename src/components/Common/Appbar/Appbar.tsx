@@ -9,7 +9,7 @@ import Avatar from "../Avatar";
 
 const Appbar = () => {
   return (
-    <nav className="h-12 items-center px-4 shadow-lg flex">
+    <nav className=" items-center px-4 shadow-lg flex h-14">
       <div className="mr-4">Jira Software</div>
       <div className="h-full flex items-center">
         <NavBtn>Your Work</NavBtn>

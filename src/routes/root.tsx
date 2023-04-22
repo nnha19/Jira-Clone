@@ -25,8 +25,8 @@ export default function Root() {
   return (
     <>
       <Appbar />
-      <div className="flex">
-        <div className="w-64 bg-[#FAFBFC] border-r-2">
+      <div className="flex h-[calc(100vh-56px)]">
+        <div className="w-64 bg-[#FAFBFC] border-r-2 border-primaryDivider">
           <div className="p-2 ">
             <div className="p-4">
               <Typography variant="header">Jira Clone</Typography>
@@ -44,7 +44,7 @@ export default function Root() {
             </div>
           </div>
         </div>
-        <div id="detail">
+        <div className="w-full" id="detail">
           <Outlet />
         </div>
       </div>

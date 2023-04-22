@@ -11,6 +11,7 @@ export default {
       "primary-light": "#0052cc26",
       textPrimary: "#42526E",
       white: "#ffffff",
+      primaryDivider: "#EBECF0",
     },
   },
   plugins: [],

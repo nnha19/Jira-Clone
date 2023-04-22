@@ -10,7 +10,7 @@ const IssueRow = ({
   issueKey,
 }: Issue & { issueKey: string }) => {
   return (
-    <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+    <tr className="bg-white  dark:bg-gray-800">
       <td className="px-6 py-4 hover:underline cursor-pointer">{issueKey}</td>
       <td className="px-6 py-4 text-primary cursor-pointer hover:underline">
         {title}
